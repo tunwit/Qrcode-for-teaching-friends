@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-export default function (props) {
+export default function Mybutton(props) {
     const [message,setmessage] = useState('')
     const [disable,setdisable] = useState(true)
     const messagehandle = (e)=>{
